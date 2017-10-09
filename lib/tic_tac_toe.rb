@@ -1,4 +1,6 @@
-# Define your WIN_COMBINATIONS constant
+def play
+  board = [" ", " ", " ", " ", " ", " ", " ", " ", " ",]
+  # Define your WIN_COMBINATIONS constant
 WIN_COMBINATIONS = [
   [0,1,2],
   [3,4,5],
@@ -105,4 +107,5 @@ def winner(board)
      win_index_1 = won?(board)[0]
      return board[win_index_1]
   end
+end
 end
