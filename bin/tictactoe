@@ -14,7 +14,7 @@ input_to_index
 moves
 position_taken?
 valid_move?
-turn(board)
+turn
 turn_count
 current_player
 won?
