@@ -59,7 +59,6 @@ def turn(board)
     turn(board)
   end
   move(board)
-  binding.pry
 end
 
 def turn_count(board)
