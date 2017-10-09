@@ -1,3 +1,21 @@
 #!/usr/bin/env ruby
 
 require_relative '../lib/tic_tac_toe.rb'
+
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " ",]
+
+display_board
+input_to_index
+moves
+position_taken?
+valid_move?
+turn
+turn_count
+current_player
+won?
+full?
+draw?
+over?
+winner
+
+
