@@ -2,11 +2,6 @@
 
 require_relative '../lib/tic_tac_toe.rb'
 
-
-#!/usr/bin/env ruby
-
-require_relative "../lib/play"
-
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 puts "Welcome to Tic Tac Toe!"
