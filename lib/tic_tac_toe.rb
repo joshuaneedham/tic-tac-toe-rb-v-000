@@ -45,7 +45,7 @@ def input_to_index(user_input)
 end
 # Add move to board
 def move(board, index, player )
-  board[index] = character
+  board[index] = player
 end
 
 def turn(board)
