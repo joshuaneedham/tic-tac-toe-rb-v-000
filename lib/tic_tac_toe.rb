@@ -59,8 +59,9 @@ def turn(board)
     turn
   end
   move
+  binding.pry
 end
-binding.pry
+
 def turn_count(board)
   moves = 0
   # Checking each position on the board for an entry
