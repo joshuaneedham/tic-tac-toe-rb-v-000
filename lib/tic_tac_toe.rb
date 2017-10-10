@@ -123,6 +123,7 @@ def winner(board)
 end
 
 def play(board)
+  puts "Welcome to Tic Tac Toe!"
   until over?(board) || won?(board)
     turn(board)
   end
