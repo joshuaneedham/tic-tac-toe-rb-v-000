@@ -3,9 +3,8 @@
 require_relative '../lib/tic_tac_toe.rb'
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-
-print "Welcome to Tic Tac Toe!"
 display_board(board)
 
 # Make sure to execute #play below
 play
+print "Welcome to Tic Tac Toe!"
