@@ -44,21 +44,22 @@ def input_to_index(user_input)
   user_input.to_i - 1
 end
 # Add move to board
-def move(board, index, player)
-  board[index] = player
+def move(board, index, character = "X")
+  board[index] = character
 end
+
 
 def turn(board)
   puts "Please enter 1-9:"
   user_input = gets.strip
   index = input_to_index(user_input)
   if valid_move?(board, index)
-    move
+    move(board, index)
     display_board(board)
   else
     turn(board)
   end
-  move
+  move(board, index)
 end
 
 def turn_count(board)
