@@ -44,9 +44,8 @@ def input_to_index(user_input)
   user_input.to_i - 1
 end
 # Add move to board
-def move(board, index, character)
-  turn(board)
-  board[index] = character
+def move(board, index, player_token)
+  board[index] = player_token
 end
 
 def turn(board)
