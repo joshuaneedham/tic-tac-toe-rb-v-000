@@ -121,5 +121,5 @@ def winner(board)
   end
 end
 def play(board)
-  turn
+  turn(board, index, character)
 end
