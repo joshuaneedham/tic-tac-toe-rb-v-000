@@ -123,7 +123,12 @@ def winner(board)
 end
 
 def play(board)
-  until condition
-    
+  until over?(board)
+    turn(board)
+  end
+  if won?(board)
+    puts "Congratulations!"
+  else
+    puts "It's Cats Game!"
   end
 end
