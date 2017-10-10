@@ -57,6 +57,7 @@ def turn(board)
     move(board, index, player_token)
     display_board(board)
   else
+    puts "Number taken please choose again."
     turn(board)
   end
   move(board, index, player_token)
